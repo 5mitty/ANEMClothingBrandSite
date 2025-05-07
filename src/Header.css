@@ -189,3 +189,13 @@ nav {
 #nav4:hover {
   background-image: url('./assets/ANEMLOGOS_04.png');
 }
+
+@media only screen and (max-width: 1206px) {
+  .nav-list {
+    justify-content: center;
+  }
+
+  .header-content {
+    flex-direction: column;
+  }
+}

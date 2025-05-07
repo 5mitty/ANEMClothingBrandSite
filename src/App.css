@@ -246,9 +246,9 @@ html, body {
   margin-top: 150px;
 }
 
-@media only screen and (max-width: 1206px) {
+@media only screen and (max-width: 1080px) {
   .container {
-    width: fit-content;
+    width: auto;
   }
   .logoImage {
     width: 90%;
@@ -256,12 +256,28 @@ html, body {
   }
   .header {
     height: 13%;
+  }
+
+  .aboutPage, .portfolioPage, .contactPage, .eraPageType1, .mainBodyFlex {
+    margin-top: 25%;
+  }
+
+  .mainBody {
+    margin-top: 30%;
+  }
+
+  .header-title {
+    margin-left: 0%;
+    font-size: 6em;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 30px;
   }
 }
 
 @media only screen and (max-width: 390px) {
   .container {
-    width: fit-content;
+    width: auto;
   }
   .logoImage {
     width: 90%;
@@ -269,5 +285,12 @@ html, body {
   }
   .header {
     height: 13%;
+  }
+  .header-title {
+    margin-left: 0%;
+    font-size: 2em;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 30px;
   }
 }
