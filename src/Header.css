@@ -190,9 +190,29 @@ nav {
   background-image: url('./assets/ANEMLOGOS_04.png');
 }
 
-@media only screen and (max-width: 1206px) {
+@media only screen and (max-width: 700px) {
   .nav-list {
     justify-content: center;
+    margin-left: 0;
+    gap: 0;
+  }
+
+  .navItemWithBg {
+    margin-left: 0;
+  }
+
+  .nav-list {
+    margin-bottom: 0;
+  }
+
+  .header-content {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navItemWithBg {
+    margin-left: 0;
   }
 
   .header-content {

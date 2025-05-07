@@ -18,7 +18,7 @@ function Header() {
     <header className="header" >
       <div className="header-content">
         <div className="header-title">A New Era of Me</div>
-        <nav>
+        <nav className='headerNav'>
           <ul className="nav-list">
             <li className="navItemWithBg" style={{ backgroundImage: `url(${homeBg})` }}>
               <Link to="/home" className="navListItem" id="nav1" >
