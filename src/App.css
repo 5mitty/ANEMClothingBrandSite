@@ -246,6 +246,19 @@ html, body {
   margin-top: 150px;
 }
 
+@media only screen and (max-width: 1206px) {
+  .container {
+    width: fit-content;
+  }
+  .logoImage {
+    width: 90%;
+    height: auto;
+  }
+  .header {
+    height: 13%;
+  }
+}
+
 @media only screen and (max-width: 390px) {
   .container {
     width: fit-content;
