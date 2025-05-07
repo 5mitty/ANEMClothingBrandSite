@@ -11,7 +11,7 @@ const EraSplit = () => {
       
     //   return;
     // }
-    navigate(`/shop/${product.id}`);
+    navigate(`/shop/`);
   };
 
   return (

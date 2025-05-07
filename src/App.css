@@ -246,3 +246,8 @@ html, body {
   margin-top: 150px;
 }
 
+@media only screen and (max-width: 390px) {
+  .header {
+    color: blue;
+  }
+}
