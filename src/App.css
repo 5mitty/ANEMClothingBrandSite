@@ -1,0 +1,248 @@
+html, body {
+  height: 100%; /* Sets the height of html and body to 100% */
+  margin: 0; /* Removes default margin */
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  text-align: center;
+  height: 100%;
+}
+
+.footerLink:hover {
+  color: #639fe2;
+  
+}
+
+.eraHomeText {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 50px;
+}
+
+.shopDescription1 {
+  margin-top: 50px;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+.shopDescription2 {
+  margin-top: 50px;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+#squareImgShirtDemo {
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.eraHomeText1 {
+  margin-top: 50px;
+}
+
+.portfolioProjectImg {
+  height: auto;
+  width: 50%;
+}
+
+/* Logo Styles */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Animation */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Main Content Styles */
+.container {
+  display: flex;
+  flex-direction: column; /* Stacks header, main content, and footer vertically */
+  min-height: 94vh; /* Ensures the container takes full height */
+}
+
+.main {
+  flex: 1; /* Allows the main section to grow */
+  padding-top: 20px; /* Padding for the main content */
+}
+
+/* Page Styles */
+.aboutPage, .portfolioPage, .contactPage, .eraPageType1 {
+  padding-top: 100px;
+  /* background-color: rgb(249, 249, 249); */
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* .eraPageType1 {
+  background-color: rgb(249, 249, 249);
+} */
+
+.aboutPage {
+  margin-top: 100px;
+  /* background-color: rgb(249, 249, 249); */
+}
+
+.myProfileImage {
+  padding-top: 100px;
+  height: 200px;
+  width: 200px;
+}
+
+.logoImage {
+  height: 200px;
+  width: fit-content;
+}
+
+.bioText {
+  margin: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* Footer Styles */
+.footerLink {
+  margin: 0 10px;
+  color: rgb(83, 83, 83);
+}
+
+/* Box Styles */
+.eraBox {
+  width: 80vw; /* Use viewport width (vw) for responsive sizing */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.eraBoxDiv {
+  width: 90%; 
+  height: auto;
+  object-fit: cover;
+}
+
+.footerBtm {
+  height: 50px;
+}
+
+.aboutHeaderText {
+  align-content: flex-start;
+}
+
+.mainBodyFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; /* Ensure full viewport height */
+  margin-top: 10%;
+}
+
+.eraPageType1Flex {
+  margin-top: 5%;
+}
+
+.homeText {
+  margin-top: 4%;
+  margin-bottom: 0;
+}
+
+.eraHomePageBox {
+  margin-top: 50px;
+}
+
+.eraBoxFlex {
+  display: flex; 
+  width: 100%; 
+  /* height: 100vh; */ /* Removed full viewport height for more flexible image heights */
+  margin-top: 2%;
+  overflow: hidden;
+  max-height: 350px; 
+}
+
+.eraBoxLeft,
+.eraBoxRight {
+  flex: 1; /* Each box takes equal width */
+  height: 100%; 
+  position: relative; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  max-height: 100%; 
+}
+
+.eraBoxDivLeftFlex,
+.eraBoxDivRightFlex {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  max-height: 100%; 
+}
+
+.imageButton2 {
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  padding: 10px 20px; 
+  color: #ffffffe7;
+  background-color: #afe6d497;;
+  font-size: 1em;
+  border-radius: 70px;
+  border: 0px solid rgb(43, 43, 43);
+}
+.imageButton1 {
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  padding: 10px 20px; 
+  color: #ffffffe7;
+  background-color: #a5b0ad97;;
+  font-size: 1em;
+  border-radius: 70px;
+  border: 0px solid rgb(43, 43, 43);
+}
+
+.imageButton1:hover {
+  border: 2px solid rgba(15, 15, 15, 0.807);
+}
+
+.imageButton2:hover {
+  border: 2px solid rgba(15, 15, 15, 0.807);
+}
+
+.shopSelectSpacer {
+  margin-top: 150px;
+}
+

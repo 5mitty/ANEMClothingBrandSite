@@ -1,0 +1,91 @@
+.shop-grid-flex {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: space-around; /* Distribute items with space around them */
+  padding: 20px;
+  background-color: white;
+}
+
+.item-flex {
+  width: calc(20% - 20px); /* Roughly 5 items across with some margin */
+  margin-bottom: 20px;
+  text-align: center;
+  box-sizing: border-box; 
+  background-color: #ade9e71c;
+  border-radius: 20px;
+}
+
+.item-image-container-flex {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* Square aspect ratio */
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  overflow: hidden; /* Clip any content that overflows the container */
+}
+
+.item-image-flex {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Make sure the image fits within the container without cropping */
+  background-color: white;
+}
+
+.shopSelectPage {
+  margin-top: 50px;
+}
+
+.shopImgSpace {
+  margin-top: 50px;
+}
+
+.item-details-flex {
+  text-align: center;
+}
+
+.item-name-flex {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.item-price-flex {
+  color: #bbb;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 1200px) {
+  .item-flex {
+    width: calc(25% - 20px); /* 4 items across */
+  }
+}
+
+@media (max-width: 900px) {
+  .item-flex {
+    width: calc(33.333% - 20px); /* 3 items across */
+  }
+}
+
+@media (max-width: 600px) {
+  .item-flex {
+    width: calc(50% - 20px); /* 2 items across */
+  }
+}
+
+@media (max-width: 400px) {
+  .item-flex {
+    width: calc(100% - 20px); /* 1 item across */
+  }
+}
+
+.shopPageBox {
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.shopHeader {
+  margin-top: 5%;
+  font-weight: 600;
+}
+

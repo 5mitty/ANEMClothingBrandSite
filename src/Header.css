@@ -1,0 +1,191 @@
+.header {
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+
+a.navListItem:hover {
+  color: #00234d;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #00234d;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  background-image: linear-gradient(to right, #2e0663, #c1c1f1, #b9f4b0, #70ef77);
+  color: #f6feff;
+  padding: 0 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  white-space: nowrap;
+  /* background-image: url("../assets/ANEMBANNERHEADER.jpg"); */
+}
+
+.header-title {
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  font-weight: 800;
+  color: #161616;
+  text-shadow: rgba(211, 211, 211, 0.315) 1px 1px 5px;
+  background-color: #ebebeb58;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  lighting-color: aqua;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 400;
+  width: 100%;
+}
+
+nav {
+  margin-right: 7%;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  margin-left: 40px;
+  gap: 20px;
+}
+
+.navListItem {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+  stroke: #333;
+  stroke-width: 3px;
+}
+
+.navListItem:hover {
+  color: #f39c12;
+}
+
+/* Added styles for background images and hover effects */
+.navItemWithBg {
+  position: relative;
+  margin-left: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex; 
+  align-items: center; 
+}
+
+.navListItem {
+  z-index: 2;
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+  color: black;
+  /* -webkit-text-stroke: 1px rgba(246, 254, 255, 0.7); */
+  text-shadow: rgb(255, 255, 255) 1px 1px 2px;
+  color: black;
+  height: 100%; 
+  min-width: 50px;
+  display: flex; 
+  align-items: flex-end;  
+  justify-content: center; 
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: visible;
+}
+
+.navListItem > a {
+  padding-bottom: 25px;
+  position: relative; /* Added to the anchor */
+  bottom: -10px;        /* Added to the anchor */
+  margin-bottom: 100px;
+  text-shadow: 0 4px 12px rgba(246, 254, 255, 0.9);
+  z-index: 3;
+}
+
+.navItemWithBg {
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+  display: flex;
+  align-items: center; 
+  /* background-color: #22222222; */
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.navListItem:hover {
+  color: white;
+}
+
+.navListItemTitle {
+  /* background-color: #ebebeb99; */
+  background-color: #a4e79fb2;
+  height: 20px;
+  padding-bottom: 8px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 10px;
+}
+
+.navListItemTopPart {
+  padding-top: 42px;
+}
+
+/* #nav1 {
+  text-emphasis-color: black;
+} */
+
+#nav1:hover {
+  background-image: url('./assets/ANEMLOGOS_01.png');
+}
+
+#nav2:hover {
+  background-image: url('./assets/ANEMLOGOS_02.png');
+}
+
+#nav3:hover {
+  background-image: url('./assets/ANEMLOGOS_03.png');
+}
+
+#nav4:hover {
+  background-image: url('./assets/ANEMLOGOS_04.png');
+}
