@@ -208,6 +208,10 @@ nav {
   .header-content {
     flex-direction: row;
   }
+  
+  .header-content {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 600px) {

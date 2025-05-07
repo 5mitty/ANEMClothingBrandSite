@@ -262,7 +262,7 @@ html, body {
     height: auto;
   }
   .header {
-    height: 13%;
+    height: 30%;
     padding-left: 0;
   }
 
@@ -276,7 +276,7 @@ html, body {
 
   .header-title {
     margin-left: 0%;
-    font-size: 6em;
+    font-size: 2em;
     padding-left: 4%;
     padding-right: 4%;
     border-radius: 20px;
@@ -312,7 +312,7 @@ html, body {
   }
 
   .aboutPage, .portfolioPage, .contactPage, .eraPageType1 {
-    margin-top: 50%;
+    margin-top: 20%;
   }
 
   .mainBodyFlex {
@@ -320,7 +320,7 @@ html, body {
   }
 
   .mainBody {
-    margin-top: 40%;
+    margin-top: 30%;
   }
 
   .shopPageBox {
