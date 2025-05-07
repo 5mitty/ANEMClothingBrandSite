@@ -247,7 +247,14 @@ html, body {
 }
 
 @media only screen and (max-width: 390px) {
+  .container {
+    width: fit-content;
+  }
+  .logoImage {
+    width: 90%;
+    height: auto;
+  }
   .header {
-    color: blue;
+    height: 13%;
   }
 }
